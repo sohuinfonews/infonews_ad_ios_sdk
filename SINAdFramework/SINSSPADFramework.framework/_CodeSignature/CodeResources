@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/SINAdManager.h</key>
 		<data>
-		ctuSvzTY2QommxBuMVjxJvFBZAI=
+		pZdccSdlZmPbahRMTqtIRpI8WNo=
 		</data>
 		<key>Headers/SINAdMaterialModel.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/SINAdRelatedViewManager.h</key>
 		<data>
-		oqVdkc4AN8ngUJJDpGjFjAiRVzg=
+		K7kdvryPcfeyz4aiqVHVPlEIuSs=
 		</data>
 		<key>Headers/SINAdSDKError.h</key>
 		<data>
@@ -319,11 +319,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ctuSvzTY2QommxBuMVjxJvFBZAI=
+			pZdccSdlZmPbahRMTqtIRpI8WNo=
 			</data>
 			<key>hash2</key>
 			<data>
-			uJGRNIRjuK5+4HHMWGH1tdcgdOH61+QIrWcGtcvrfN8=
+			tg7rOVjz7GvI0hzYOVht/gkp3sHLk+se8rPgF9Th0fs=
 			</data>
 		</dict>
 		<key>Headers/SINAdMaterialModel.h</key>
@@ -352,11 +352,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oqVdkc4AN8ngUJJDpGjFjAiRVzg=
+			K7kdvryPcfeyz4aiqVHVPlEIuSs=
 			</data>
 			<key>hash2</key>
 			<data>
-			pcFbdr5Zm+JJOuRl4M6Ee6COCdtfOKoyjCspFNT0/Hk=
+			D8UoXJ7uPQ/6dBfSmnPhWWs3Dtd27ddTW6FE1XIpID8=
 			</data>
 		</dict>
 		<key>Headers/SINAdSDKError.h</key>
