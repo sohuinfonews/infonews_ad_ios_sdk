@@ -7,12 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+
+// 初始化
 #import "SINAdManager.h"
+// 自渲染
 #import "SINNativeAd.h"
+// 开屏广告
 #import "SINAdSplashView.h"
+// 横幅广告（feeds流）
 #import "SINAdRelatedView.h"
-
-
+#import "SINAdRelatedViewManager.h"
 
 
 //! Project version number for SINSSPADFramework.

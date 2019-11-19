@@ -4,13 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AdLogo@2x.png</key>
+		<data>
+		opRChPvLUbzE2+OlXVdfi6k+T4g=
+		</data>
+		<key>AdLogo@3x.png</key>
+		<data>
+		UqSD/R0a/Wabqy+qBpCn6BA1J4w=
+		</data>
 		<key>DPBlankAlertView.plist</key>
 		<data>
 		cSnziq3PsJi0WW51t4OWQehNqsE=
 		</data>
 		<key>Headers/SINAdConfig.h</key>
 		<data>
-		QZ+lfWAR0LcqvK+I1BHRu4K7czQ=
+		CsprgvcLu/2x6qBGTGsQIlftMTI=
 		</data>
 		<key>Headers/SINAdManager.h</key>
 		<data>
@@ -18,19 +26,23 @@
 		</data>
 		<key>Headers/SINAdMaterialModel.h</key>
 		<data>
-		hfC3FSut+RUxj29gbIrrbTyfg8o=
+		4axsYuXtliQ0/fY2gFbsCALGZbI=
 		</data>
 		<key>Headers/SINAdRelatedView.h</key>
 		<data>
-		Ma6hDnZHxxrsSDIdjMlAO4oxdKY=
+		aG+Elmklh7RgO8r3yOrwy+P0DMM=
+		</data>
+		<key>Headers/SINAdRelatedViewManager.h</key>
+		<data>
+		oqVdkc4AN8ngUJJDpGjFjAiRVzg=
 		</data>
 		<key>Headers/SINAdSDKError.h</key>
 		<data>
-		4bREaTjcCpxCJnpzQOLdabZ3dHE=
+		iKUtoUfKdFqFd8u95a7QVJYIMxs=
 		</data>
 		<key>Headers/SINAdSplashView.h</key>
 		<data>
-		Z2/tZgWZOpnHOL2hD9dy0p3wesE=
+		vqfAVodSyYbB+9mrm0mZP6cpkhQ=
 		</data>
 		<key>Headers/SINImage.h</key>
 		<data>
@@ -38,11 +50,11 @@
 		</data>
 		<key>Headers/SINNativeAd.h</key>
 		<data>
-		ggrqy4eM2AeG3VzI71fJOX3OY9E=
+		GP8Hv2zj6GPcOx55GiA8Cek88RI=
 		</data>
 		<key>Headers/SINSSPADFramework.h</key>
 		<data>
-		/SnvJV9/i8YeI89vbkWa0b+Mqwk=
+		1memywolwT+cM49v6lhZZcJk7y0=
 		</data>
 		<key>Headers/SINSize.h</key>
 		<data>
@@ -50,11 +62,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vR4bwpjH9GZpdXnqp9ea3RDrpcU=
+		fsLQlF2IspMIR1l7J13SbCumEKc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		dAO1QQQKRL/vQooS/1+2MeKlefA=
+		</data>
+		<key>ic_back_black_normal@2x.png</key>
+		<data>
+		qEitwYWG8+lVEGgL/NLL+6fYtjA=
+		</data>
+		<key>ic_back_black_normal@3x.png</key>
+		<data>
+		4MPB+DWw4El/I7xd5RAyEnlyMdg=
+		</data>
+		<key>icon_download@2x.png</key>
+		<data>
+		XZN3REFzd0HoiQbKfjCy3cOhMFk=
+		</data>
+		<key>icon_download@3x.png</key>
+		<data>
+		zM9AtrSQlzcYkoHl4LAoQWMfcmc=
 		</data>
 		<key>img_blank_content@2x.png</key>
 		<data>
@@ -243,6 +271,28 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AdLogo@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			opRChPvLUbzE2+OlXVdfi6k+T4g=
+			</data>
+			<key>hash2</key>
+			<data>
+			qdDNJv9wP08SBPYtEES8dwNbrbeg7qqDU13sBCNVeHA=
+			</data>
+		</dict>
+		<key>AdLogo@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UqSD/R0a/Wabqy+qBpCn6BA1J4w=
+			</data>
+			<key>hash2</key>
+			<data>
+			/Sp2cP/T49/lx4ZzMihA/kIN59kjNoeuJi5JJscs2aw=
+			</data>
+		</dict>
 		<key>DPBlankAlertView.plist</key>
 		<dict>
 			<key>hash</key>
@@ -258,11 +308,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QZ+lfWAR0LcqvK+I1BHRu4K7czQ=
+			CsprgvcLu/2x6qBGTGsQIlftMTI=
 			</data>
 			<key>hash2</key>
 			<data>
-			iZYNuRVrjjGJmDaR/axjTrhaZBJ52W8IB/B2f9441rk=
+			ssjkacxEnHCwuFsiI1s9xuaBh6369U5SE6fE778xEME=
 			</data>
 		</dict>
 		<key>Headers/SINAdManager.h</key>
@@ -280,44 +330,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hfC3FSut+RUxj29gbIrrbTyfg8o=
+			4axsYuXtliQ0/fY2gFbsCALGZbI=
 			</data>
 			<key>hash2</key>
 			<data>
-			wVwpdHxfiqS8bZAjQDBKz+rjCnWr0vJPvTZ0aDryqss=
+			0sUCDixkNt/EVv3qlEe6u6PvOK9tlI9ne0zLG0i/nmY=
 			</data>
 		</dict>
 		<key>Headers/SINAdRelatedView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ma6hDnZHxxrsSDIdjMlAO4oxdKY=
+			aG+Elmklh7RgO8r3yOrwy+P0DMM=
 			</data>
 			<key>hash2</key>
 			<data>
-			FPKKfMRlcA/vzWI5Ob1xEmfa5RMaWUyrX2eH5yGlBDM=
+			9SpGcvoXPdI7xVDsBkPbU/yJfRtAONf0g8sKanRhLwM=
+			</data>
+		</dict>
+		<key>Headers/SINAdRelatedViewManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oqVdkc4AN8ngUJJDpGjFjAiRVzg=
+			</data>
+			<key>hash2</key>
+			<data>
+			pcFbdr5Zm+JJOuRl4M6Ee6COCdtfOKoyjCspFNT0/Hk=
 			</data>
 		</dict>
 		<key>Headers/SINAdSDKError.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4bREaTjcCpxCJnpzQOLdabZ3dHE=
+			iKUtoUfKdFqFd8u95a7QVJYIMxs=
 			</data>
 			<key>hash2</key>
 			<data>
-			aRmqXg+miYCE7VmIkIoVqRkAklXqn1TrOxW+ShcFnKU=
+			GIy/ZhkxNnXLnZ3/8XG7chcTewtlUEN79FBk+aZgPS4=
 			</data>
 		</dict>
 		<key>Headers/SINAdSplashView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z2/tZgWZOpnHOL2hD9dy0p3wesE=
+			vqfAVodSyYbB+9mrm0mZP6cpkhQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			719Xq38uspY/I8bFsJXcm7jhRij1oxpA+qLSaxnR5BI=
+			2uPKtANbyTCmvCbUGcTG89SsURBxfHxE8q8taLp+g/s=
 			</data>
 		</dict>
 		<key>Headers/SINImage.h</key>
@@ -335,22 +396,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ggrqy4eM2AeG3VzI71fJOX3OY9E=
+			GP8Hv2zj6GPcOx55GiA8Cek88RI=
 			</data>
 			<key>hash2</key>
 			<data>
-			WCM8/nF5ZA8NFVmX50eogSbNUwAVH9ifxdcOPY/yzwc=
+			HrltAOJtqz58epCHndN+4504Xxj22afiqfQMlE3qe5E=
 			</data>
 		</dict>
 		<key>Headers/SINSSPADFramework.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/SnvJV9/i8YeI89vbkWa0b+Mqwk=
+			1memywolwT+cM49v6lhZZcJk7y0=
 			</data>
 			<key>hash2</key>
 			<data>
-			RNFCJFQFll8fcGCNQfSwZACDKr1o4uTOrKxDrs2YRI4=
+			TBcZgeSHb+yZMYflRgmL+67X6SeoHMAW7TEX+V7uAUM=
 			</data>
 		</dict>
 		<key>Headers/SINSize.h</key>
@@ -373,6 +434,50 @@
 			<key>hash2</key>
 			<data>
 			AeKenRctGVjnokdMBli4sGmcSPhZ+qQxq0lYLPPZHww=
+			</data>
+		</dict>
+		<key>ic_back_black_normal@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qEitwYWG8+lVEGgL/NLL+6fYtjA=
+			</data>
+			<key>hash2</key>
+			<data>
+			2jEDbT3zUtYbXIl/OMVvgpJW5cr/lp5eXpCrN0TPQAM=
+			</data>
+		</dict>
+		<key>ic_back_black_normal@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4MPB+DWw4El/I7xd5RAyEnlyMdg=
+			</data>
+			<key>hash2</key>
+			<data>
+			dJQ+TVU+6LHZB5gf+YhD4Nqj+nxYJyeLKxI/HIHlNsY=
+			</data>
+		</dict>
+		<key>icon_download@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XZN3REFzd0HoiQbKfjCy3cOhMFk=
+			</data>
+			<key>hash2</key>
+			<data>
+			GC/hLMZYqDnH5F2+YouFUhvFKKGHwOyGJJnRiCrjL7E=
+			</data>
+		</dict>
+		<key>icon_download@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zM9AtrSQlzcYkoHl4LAoQWMfcmc=
+			</data>
+			<key>hash2</key>
+			<data>
+			M3s460YNNM/w7tlVJ34gTv3cTfLwP1g0lPNCt8jZ0Us=
 			</data>
 		</dict>
 		<key>img_blank_content@2x.png</key>

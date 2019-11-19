@@ -43,6 +43,7 @@ typedef NS_ENUM(NSInteger, SINErrorCode) {
     SINErrorCodeOpenAPPStoreFail = 310001,   // 打开App Store失败
     
     // SDK相关的错误码、Debug错误、其他错误
+    SINErrorNativeError          = 400000,     // 原生错误
     SINErrorCodeSDKStop          = 400001,     // SDK 被强制结束
     SINErrorCodeAdPackageIncomplete  = 400002, // SDK包不完整。建议验证SDK包的完整性或联系技术支持。
     SINUnionRequestLimitError    = 400003,    // 开发人员注册的广告空间超过每日请求限制。
@@ -51,7 +52,7 @@ typedef NS_ENUM(NSInteger, SINErrorCode) {
 };
 
 
-@interface SINAdSDKError : NSObject
+@interface SINAdSDKError : NSError
 
 
 /// 错误描述
@@ -65,14 +66,7 @@ typedef NS_ENUM(NSInteger, SINErrorCode) {
 
 
 
-/// 广告来源类型枚举
-typedef NSString *SADErrorType NS_STRING_ENUM;
 
-
-extern SADErrorType const SADErrorClose;                   // 广告位关闭
-extern SADErrorType const SADErrorNoNet;                   // 无网
-extern SADErrorType const SADErrorOvertime;                // 超时
-extern SADErrorType const SADErrorParametersError;         // 参数错误
 
 @end
 

@@ -42,17 +42,17 @@ typedef NS_ENUM(NSUInteger, SINAdSplashUIType) {
 - (void)splashDidPresentScreen:(SINAdSplashView *)splash;
 
 /**
- 广告即将在屏幕上消失
+ 广告即将在屏幕上消失（如果进入了广告落地页，这个回调会在关闭落地页之后调用）
  */
 - (void)splashWillDismissScreen:(SINAdSplashView *)splash;
 
 /**
- 开屏广告已经在屏幕上消失
+ 开屏广告已经在屏幕上消失（如果进入了广告落地页，这个回调会在关闭落地页之后调用）
  */
 - (void)splashDidDismissScreen:(SINAdSplashView *)splash;
 
 /**
- 广告落地页，消失的时候调用 （如果开屏广告未点击，开屏广告已经在屏幕上消失也会调用）
+ 广告落地页，消失的时候调用
  */
 - (void)splashLandingPageDidClose:(SINAdSplashView *)splash;
 
@@ -70,10 +70,7 @@ typedef NS_ENUM(NSUInteger, SINAdSplashUIType) {
  @return 自定义品牌区域视图
  */
 - (UIView *)splash:(SINAdSplashView *)splash logoViewForUIType:(SINAdSplashUIType)type;
-
-
 @end
-
 
 
 @interface SINAdSplashView : NSObject
@@ -84,7 +81,7 @@ typedef NS_ENUM(NSUInteger, SINAdSplashUIType) {
 @property (nonatomic, assign) NSTimeInterval tolerateTimeout;
 
 /**
- 是否隐藏“跳过”的按钮，默认是NO。如果隐藏隐藏了跳过按钮，您需要自定义倒计时
+ 是否隐藏“跳过”的按钮，默认是NO。如果隐藏隐藏了跳过按钮，您需要自定义倒计时 （暂时未加）
  */
 @property (nonatomic, assign) BOOL hideSkipButton;
 
@@ -100,21 +97,21 @@ typedef NS_ENUM(NSUInteger, SINAdSplashUIType) {
 @property (nonatomic, weak) UIViewController *rootViewController;
 
 /**
- 是否加载了Splash广告数据
+ 是否加载了Splash广告数据（暂时未加）
  */
 @property (nonatomic, getter=isAdValid, readonly) BOOL adValid;
 
 
 /**
- Initializes splash
- @param adID : the unique identifier of splash ad
- @param frame : the frame of splashAd view. It is recommended for the mobile phone screen.
+ 初始化开屏广告的方法
+ @param adID : 广告ID，必传
+ @param frame : splashAd的frame. 建议按照手机屏幕大小传入（UIScreen.main.bounds）
  @return SINAdSplashView
  */
 - (instancetype)initWithAdID:(NSString *)adID frame:(CGRect)frame;
 
 /**
- Load splash ad datas.
+ 加载开屏广告
  请求数据后，立即启动倒计时（tolerateTimeout）
  */
 - (void)loadAdData;

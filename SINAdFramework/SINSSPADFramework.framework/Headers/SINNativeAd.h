@@ -20,8 +20,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 // -----   测试代码  ------
 @property (nonatomic, assign) NSInteger adType;
-// todo:之后用 nativeAd 里面的loader 替换
-@property (nonatomic, strong, nullable) SINAdMaterialModel *data;
 
 /**
  Ad Config description.  AdConfig
@@ -29,48 +27,43 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readwrite, nullable) SINAdConfig *adConfig;
 
 /**
- Ad Config material.
+ Ad Config 的原始数据.
  */
-//@property (nonatomic, strong, readonly, nullable) SINAdMaterialModel *data;
-
-
+@property (nonatomic, strong, nullable) SINAdMaterialModel *data;
 
 /**
- The delegate for receiving state change messages.
- The delegate is not limited to viewcontroller.
- The delegate can be set to any object which conforming to <SINNativeAdDelegate>.
+ 用于接收状态改变消息的代理。委派不限于视图控制器。<SINNativeAdDelegate>.
  */
 @property (nonatomic, weak, readwrite, nullable) id<SINNativeAdDelegate> delegate;
 
 /**
  required.
- Root view controller for handling ad actions.
- Action method includes 'pushViewController' and 'presentViewController'.
+ 用于处理广告操作的根视图控制器。动作方法包括“pushViewController”和“presentViewController”。
  */
 @property (nonatomic, weak, readwrite) UIViewController *rootViewController;
 
 /**
- Initializes native ad with ad config.
- @param adConfig : ad config description.
-               including configID,adType,adPosition,etc.
+ 使用ad配置初始化本机广告。
+ @param adConfig : ad的生成配置文件.
+               包括配置ID，adype，图片尺寸等等
  @return SINNativeAd
  */
 - (instancetype)initWithAdConfig:(SINAdConfig *)adConfig;
 
 /**
- Register clickable views in native ads view.
+ 注册可点击的视图
  @param containerView : required.
                         container view of the native ad.
  */
 - (void)registerContainer:(__kindof UIView *)containerView;
 
 /**
- Unregister ad view from the native ad.
+ 从本机广告中取消注册广告视图。
  */
 - (void)unregisterView;
 
 /**
- Actively request nativeAd datas.
+ 主动请求NativeAD数据。
  */
 - (void)loadAdData;
 
@@ -93,29 +86,29 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 
 /**
- This method is called when native ad material loaded successfully.
+ 当成功加载本地广告材料时，将调用此方法。
  */
 - (void)nativeAdDidLoad:(SINNativeAd *)nativeAd;
 
 /**
- This method is called when native ad materia failed to load.
+ 此方法在本地AD材料无法加载时调用。
  @param error : the reason of error
  */
 - (void)nativeAd:(SINNativeAd *)nativeAd didFailWithError:(NSError *_Nullable)error;
 
 /**
- This method is called when native ad slot has been shown.
+ 变得可见的时候调用。 (暂未加入)
  */
 - (void)nativeAdDidBecomeVisible:(SINNativeAd *)nativeAd;
 
 /**
- This method is called when another controller has been closed.
+ 当另一个控制器关闭时，将调用此方法。 (暂未加入)
  
  */
 - (void)nativeAdDidCloseOtherController:(SINNativeAd *)nativeAd;
 
 /**
- This method is called when native ad is clicked.
+ 单击本机广告时将调用此方法。(暂未加入)
  */
 - (void)nativeAdDidClick:(SINNativeAd *)nativeAd withView:(UIView *_Nullable)view;
 

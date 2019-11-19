@@ -42,16 +42,16 @@ typedef NS_ENUM(NSInteger, SINAdPosition) {
 /// required必填. Ad type.
 @property (nonatomic, assign) SINAdAdType adType;
 
-/// required必填. Ad display location.
+/// required必填. Ad 展现位置
 @property (nonatomic, assign) SINAdPosition position;
 
-/// required必填. Image size.
+/// required必填. 图片的尺寸.(暂未加入)
 @property (nonatomic, strong) SINSize *imgSize;
 
-/// Accept a set of image sizes, please pass in the SINSize object.
+/// 接受一组图像大小(暂未加入)
 @property (nonatomic, strong) NSMutableArray<SINSize *> *imgSizeArray;
 
-/// Icon size.
+/// Icon 的尺寸.(暂未加入)
 @property (nonatomic, strong) SINSize *iconSize;
 
 

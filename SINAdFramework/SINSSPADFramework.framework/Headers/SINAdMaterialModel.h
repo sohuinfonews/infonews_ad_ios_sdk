@@ -23,8 +23,8 @@ typedef NS_ENUM(NSInteger, SINAdActionType) {
 @interface SINAdMaterialModel : NSObject
 
 @property (nonatomic, copy, readonly) NSString *positionId; // 广告位id,值为集团商业部的id
-@property (nonatomic, assign, readonly) NSString *sourceId; // 广告来源的平台id ,第三方广告平台id
-@property (nonatomic, assign, readonly) NSString *adLoadId;
+@property (nonatomic, copy, readonly) NSString *sourceId; // 广告来源的平台id ,第三方广告平台id
+@property (nonatomic, copy, readonly) NSString *adLoadId;
 @property (nonatomic, copy, readonly) NSString *source; // app前端展示的   来自某某，暂时定为空
 @property (nonatomic, copy, readonly) NSString *adid;  //id
 @property (nonatomic, copy, readonly) NSArray <SINAdImageModel *>*pics;  //id 封面图列表 (含有宽高，描述，url)
