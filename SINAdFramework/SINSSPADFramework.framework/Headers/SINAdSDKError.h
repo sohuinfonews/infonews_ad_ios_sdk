@@ -48,11 +48,16 @@ typedef NS_ENUM(NSInteger, SINErrorCode) {
     SINErrorCodeAdPackageIncomplete  = 400002, // SDK包不完整。建议验证SDK包的完整性或联系技术支持。
     SINUnionRequestLimitError    = 400003,    // 开发人员注册的广告空间超过每日请求限制。
     SINUnionLowVersion           = 400004,    // SDK版本太低，无法返回广告
+    SINErrorADNotShowError       = 400005,    // 广告有数据但是不展示
     SINErrorCodeSuccess          = 200        // 请求成功
 };
 
 
 @interface SINAdSDKError : NSError
+
+@property (nonatomic, assign, readonly) SINErrorCode errorCode;
+/// 错误描述
+@property (nonatomic, copy, readonly) NSString *errorDescription;
 
 
 /// 错误描述
@@ -63,7 +68,6 @@ typedef NS_ENUM(NSInteger, SINErrorCode) {
 /// 创建SINAdSDKError
 /// @param code 错误码(SINErrorCode)
 + (SINAdSDKError *)errorCode:(SINErrorCode)code;
-
 
 
 

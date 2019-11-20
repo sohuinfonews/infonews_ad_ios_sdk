@@ -4,7 +4,7 @@
 //
 //  Created by JiaLei on 2019/10/17.
 //  Copyright © 2019 Sohu. All rights reserved.
-//  2019年11月19日19:27:54
+//  2019年11月20日18:08:18
 
 #import <Foundation/Foundation.h>
 #import "SINAdManager.h"
