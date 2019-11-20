@@ -31,25 +31,25 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)nativeExpressAdFailToLoad:(SINAdRelatedViewManager *)nativeExpressAd error:(NSError *_Nullable)error;
 
 /**
- 当relatedView视图广告成功加载时，将调用此方法。 (正常调用)
+ 当relatedView视图广告成功加载时，将调用此方法。
  @param relatedView : view for relatedView
  @param nativeAd : nativeAd for relatedView
  */
 - (void)relatedViewDidLoad:(SINAdRelatedView *)relatedView WithAdmodel:(SINNativeAd *_Nullable)nativeAd;
 
 /**
- 当RelatedView广告加载失败时，将调用此方法。 （图片过大，尺寸传入不对。）
+ 当RelatedView广告加载失败时，将调用此方法。
  @param error : the reason of error
  */
 - (void)relatedViewRenderFail:(SINAdRelatedView *)relatedView Error:(NSError *_Nullable)error;
 
 /**
- 当RelatedView广告变得可视，将调用此方法。 （没有实现）
+ 当RelatedView广告变得可视，将调用此方法。
  */
 - (void)relatedViewDidBecomVisible:(SINAdRelatedView *)relatedView WithAdmodel:(SINNativeAd *_Nullable)nativeAd;
 
 /**
- 单击RelatedView时将调用此方法。 （正常调用）
+ 单击RelatedView时将调用此方法。
  */
 - (void)relatedViewDidClick:(SINAdRelatedView *)relatedView WithAdmodel:(SINNativeAd *_Nullable)nativeAd;
 
