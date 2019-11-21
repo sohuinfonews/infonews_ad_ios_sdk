@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/SINAdManager.h</key>
 		<data>
-		IJq8TsIeaSkMjfHAD+UV04iK7Vw=
+		HwFHlX1vy/CqBD6tZsMeKwsxbZg=
 		</data>
 		<key>Headers/SINAdMaterialModel.h</key>
 		<data>
@@ -30,15 +30,15 @@
 		</data>
 		<key>Headers/SINAdRelatedView.h</key>
 		<data>
-		aG+Elmklh7RgO8r3yOrwy+P0DMM=
+		ROmNoCzBGpd5SbIO5q7L7Gyq78c=
 		</data>
 		<key>Headers/SINAdRelatedViewManager.h</key>
 		<data>
-		oqVdkc4AN8ngUJJDpGjFjAiRVzg=
+		K7kdvryPcfeyz4aiqVHVPlEIuSs=
 		</data>
 		<key>Headers/SINAdSDKError.h</key>
 		<data>
-		iKUtoUfKdFqFd8u95a7QVJYIMxs=
+		OBWDZyBZKlhtth0yZKTq3qbfvlo=
 		</data>
 		<key>Headers/SINAdSplashView.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/SINNativeAd.h</key>
 		<data>
-		GP8Hv2zj6GPcOx55GiA8Cek88RI=
+		AwqqwZwYbX6JHzKs6hJM01pEzHs=
 		</data>
 		<key>Headers/SINSSPADFramework.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lqFPJ3O/Z5vkTThcFeOtV1NaWAk=
+		fsLQlF2IspMIR1l7J13SbCumEKc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -319,11 +319,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IJq8TsIeaSkMjfHAD+UV04iK7Vw=
+			HwFHlX1vy/CqBD6tZsMeKwsxbZg=
 			</data>
 			<key>hash2</key>
 			<data>
-			I0YCU/Av9fzZDbJpo9CA2lFusmEAe0EM5p344bw7P0M=
+			Ggc0FIX4fk4S1e++xhuNKMkDEI5ttJrXfFIfBEGvuwk=
 			</data>
 		</dict>
 		<key>Headers/SINAdMaterialModel.h</key>
@@ -341,33 +341,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aG+Elmklh7RgO8r3yOrwy+P0DMM=
+			ROmNoCzBGpd5SbIO5q7L7Gyq78c=
 			</data>
 			<key>hash2</key>
 			<data>
-			9SpGcvoXPdI7xVDsBkPbU/yJfRtAONf0g8sKanRhLwM=
+			3xsu87rPzp28boYw/qst0QgG8KVNXMhp+bQwuNe3Q3A=
 			</data>
 		</dict>
 		<key>Headers/SINAdRelatedViewManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oqVdkc4AN8ngUJJDpGjFjAiRVzg=
+			K7kdvryPcfeyz4aiqVHVPlEIuSs=
 			</data>
 			<key>hash2</key>
 			<data>
-			pcFbdr5Zm+JJOuRl4M6Ee6COCdtfOKoyjCspFNT0/Hk=
+			D8UoXJ7uPQ/6dBfSmnPhWWs3Dtd27ddTW6FE1XIpID8=
 			</data>
 		</dict>
 		<key>Headers/SINAdSDKError.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iKUtoUfKdFqFd8u95a7QVJYIMxs=
+			OBWDZyBZKlhtth0yZKTq3qbfvlo=
 			</data>
 			<key>hash2</key>
 			<data>
-			GIy/ZhkxNnXLnZ3/8XG7chcTewtlUEN79FBk+aZgPS4=
+			pLrMSP2+0PrdskL3TTwSXXgPRyUtOJsb9i6iKwJNXQk=
 			</data>
 		</dict>
 		<key>Headers/SINAdSplashView.h</key>
@@ -396,11 +396,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GP8Hv2zj6GPcOx55GiA8Cek88RI=
+			AwqqwZwYbX6JHzKs6hJM01pEzHs=
 			</data>
 			<key>hash2</key>
 			<data>
-			HrltAOJtqz58epCHndN+4504Xxj22afiqfQMlE3qe5E=
+			VMnK9McLZVPV0Pvp4GnN5DVQIEvMiYYFFXJyumaPMlM=
 			</data>
 		</dict>
 		<key>Headers/SINSSPADFramework.h</key>

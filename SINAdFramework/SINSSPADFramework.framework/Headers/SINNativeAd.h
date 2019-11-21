@@ -52,8 +52,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  注册可点击的视图
- @param containerView : required.
-                        container view of the native ad.
  */
 - (void)registerContainer:(__kindof UIView *)containerView;
 
