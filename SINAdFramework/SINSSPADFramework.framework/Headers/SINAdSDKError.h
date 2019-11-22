@@ -30,7 +30,6 @@ typedef NS_ENUM(NSInteger, SINErrorCode) {
     SINErrorCodeTempError        = 200006,    // native 模板失效
     SINUnionAppSiteRelError      = 200007,    // config中的ADId和app_id之间的关系无效
     
-    
     // nativeAd渲染的错误
     SINErrorCodeNERenderResultError= 101,    // native Express ad, 渲染结果失败
     SINErrorCodeNETempError        = 102,    // native Express ad, 模板无效
@@ -38,6 +37,7 @@ typedef NS_ENUM(NSInteger, SINErrorCode) {
     SINErrorCodeNEParseError       = 105,    // native Express ad, 解析失败
     SINErrorCodeNERenderError      = 106,    // native Express ad, 渲染失败
     SINErrorCodeNERenderTimoutError= 107,    // native Express ad, 渲染超时
+    
     
     // 落地页 和 App Store 相关
     SINErrorCodeOpenAPPStoreFail = 310001,   // 打开App Store失败
